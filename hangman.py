@@ -20,7 +20,7 @@ def get_valid_word(words):
     while '-' in word or ' ' in word:
         word = random.choice(words)
 
-    return word.upper()
+    return word.lower()
 
 
 def hangman():
